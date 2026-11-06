@@ -1,0 +1,36 @@
+{
+  "lss": {
+    "vehicle": 0.7075,
+    "drivable": 0.9828
+  },
+  "no_depth_baseline": {
+    "vehicle": 0.6383,
+    "drivable": 0.9777
+  },
+  "depth_mae_m": 5.875,
+  "drop_one_camera": {
+    "front": 0.4629,
+    "front-left": 0.6771,
+    "back-left": 0.6792,
+    "back": 0.4845,
+    "back-right": 0.674,
+    "front-right": 0.6794
+  },
+  "calibration_yaw_noise": {
+    "0 deg": 0.7075,
+    "1 deg": 0.6545,
+    "2 deg": 0.5709,
+    "4 deg": 0.4434,
+    "8 deg": 0.2783
+  },
+  "different_car": {
+    "vehicle": 0.313,
+    "drivable": 0.8531
+  },
+  "splat_ms_batch8": {
+    "splat": 16.69,
+    "splat_cumsum": 57.24,
+    "max_abs_diff": 0.00048392266035079956,
+    "points_per_batch": 456192
+  }
+}
